@@ -1,5 +1,7 @@
 # Awesome Flashcard Decks
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 A collection of flashcard decks in simple CSV format. No proprietary formats, no lock-in, no app required to contribute — just plain text anyone (and any tool) can read.
 
 ## 🙌 PRs are super welcomed!
@@ -20,8 +22,7 @@ State the formula for kinetic energy.,"$$E_k = \frac{1}{2}mv^2$$"
 - No header row
 - Plain UTF-8 text
 - **LaTeX formulas are supported** — write them inline using standard `$...$` (inline) or `$$...$$` (block) delimiters, and the viewer will render them
-- If your answer contains a comma, wrap that field in quotes: `"$E_k = \frac{1}{2}mv^2$"`
-
+- If your answer contains a comma, wrap that field in quotes: `"$f(x) = x^2, x \geq 0$"`
 This format is identical to what **NotebookLM** produces when you export generated flashcards — so you can drop a NotebookLM export straight into this repo with zero conversion.
 
 ## 👀 Viewing a deck
