@@ -1,12 +1,11 @@
-# Awesome Flashcard Decks
+# Flashcard Decks Hub
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A collection of flashcard decks in simple CSV format. No proprietary formats, no lock-in, no app required to contribute — just plain text anyone (and any tool) can read.
 
 ## 🙌 PRs are super welcomed!
 
-This repo is built by contributors, not just for them. Got a deck on chemistry, a language, history dates, coding concepts, anything? Open a pull request — no deck is too niche, too small, or too weird. Seriously, don't hesitate. See [Contributing](#-contributing) below.
+Open a pull request — no deck is too niche, too small, or too weird. Seriously, don't hesitate. See [Contributing](#-contributing) below.
 
 ## 📋 Format
 
@@ -23,7 +22,8 @@ State the formula for kinetic energy.,"$$E_k = \frac{1}{2}mv^2$$"
 - Plain UTF-8 text
 - **LaTeX formulas are supported** — write them inline using standard `$...$` (inline) or `$$...$$` (block) delimiters, and the viewer will render them
 - If your answer contains a comma, wrap that field in quotes: `"$f(x) = x^2, x \geq 0$"`
-This format is identical to what **NotebookLM** produces when you export generated flashcards — so you can drop a NotebookLM export straight into this repo with zero conversion.
+
+This format is identical to what **Gemini Notebook** produces when you export generated flashcards — so you can drop a deck straight into this repo with zero conversion.
 
 ## 👀 Viewing a deck
 
@@ -65,7 +65,7 @@ Guidelines:
 
 ## 📜 License
 
-Feel free to suggest a license (MIT/CC0 recommended for maximum reuse) — open an issue if you'd like to weigh in.
+MIT
 
 ---
 
