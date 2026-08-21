@@ -22,7 +22,7 @@ State the formula for kinetic energy.,"$$E_k = \frac{1}{2}mv^2$$"
 - **LaTeX formulas are supported** — write them inline using standard `$...$` (inline) or `$$...$$` (block) delimiters, and the viewer will render them
 - If your answer contains a comma, wrap that field in quotes: `"$f(x) = x^2, x \geq 0$"`
 
-This format is identical to what **Gemini Notebook** produces when you export generated flashcards — so you can drop a deck straight into this repo with zero conversion.
+This format is identical to what **Gemini NotebookLM** produces when you export generated flashcards — so you can drop a deck straight into this repo with zero conversion. The only addition is that the last row of every deck must be dedicated to author metadata (name, contact, or site) and the license (CC licenses optional).
 
 ##  Viewing a deck
 
@@ -31,6 +31,9 @@ You don't need to open the CSV in a spreadsheet to study it. Use the browser-bas
 🔗 **https://a.co/d/04drurCr**
 
 Just upload the raw `.csv` file and start flipping through cards immediately — no install, no signup.
+
+EPUB Format: Decks within 1-2 days can be viewed in EPUB format at:
+🔗 https://sites.google.com/view/paperstackpro/home/flashcard-decks
 
 ## 📁 Repository structure
 
@@ -61,7 +64,7 @@ Guidelines:
 - Keep filenames lowercase, hyphen-separated (e.g. `spanish-irregular-verbs.csv`)
 - One topic per deck; split large mixed decks if it makes sense
 - Fixing typos, correcting answers, or improving existing decks is just as welcome as adding new ones
--The last row of each deck is reserved for metadata and should contain the author’s name, optional contact info, website, or other attribution. If you want, you may also include the license there.
+- The last row of each deck is reserved for metadata and should contain the author’s name, optional contact info, website, or other attribution. If you want, you may also include the license there.
 
 ```
 "Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"
