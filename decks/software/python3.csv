@@ -58,3 +58,4 @@ A collection of unique elements that is unordered and unindexed is a _____.,set
 What happens to the value of $\_$ in the shell if an expression raises an exception?,The value of $\_$ remains unchanged.
 "To get a list of all names in the current local scope, which built-in function is used?",dir()
 Concept: List Comprehension,"Definition: A concise way to create lists, where the variables no longer leak into the surrounding scope in Python 3."
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"

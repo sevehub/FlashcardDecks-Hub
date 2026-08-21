@@ -40,3 +40,4 @@ How do you insert a page break in Typst?,Use #pagebreak()
 How do you create a two-column layout in Typst?,Use #set page(columns: 2) or the #columns function.
 How do you define a template/style file that can be reused across documents in Typst?,"Write a Typst file exposing a function (often named conf or template) that wraps content and applies set/show rules, then #import and call it in other files."
 What is the .. operator in Typst?,"It is the spread operator used to expand arrays, dictionaries, and arguments."
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"

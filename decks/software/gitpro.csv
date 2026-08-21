@@ -43,3 +43,4 @@ How does $git add$ behave when a directory path is provided as an argument?,It a
 "If you modify a file after running $git add$ but before committing, what must you do to include the latest changes?",Run $git add$ again to stage the latest version of the file.
 Which transfer protocol uses the format $\sh{user@server:path/to/repo.git}$?,SSH
 "Under what condition will $git status$ report ""nothing to commit, working tree clean""?",When none of the tracked files are modified and there are no untracked files.
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"

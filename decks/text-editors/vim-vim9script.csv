@@ -63,3 +63,5 @@ How can you bypass compile-time checks for a user command that is defined after 
 "In Vim9 classes, what happens if an object variable is declared with the 'const' keyword?",The variable and its value become immutable after initialisation in the constructor.
 What is the purpose of the 'as' keyword in an import statement?,It allows the imported script's items to be accessed through a custom local namespace name.
 "In Vim9, what is the default type assigned to a variable initialised with an empty dictionary ({}) if no type is provided?",The type is inferred as dict<any>.
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"
+
