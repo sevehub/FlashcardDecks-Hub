@@ -1,4 +1,3 @@
-prompt,answer
 "What is Claude.ai?","Claude.ai is Anthropic's web interface for interacting with Claude — a free, login-optional chat experience. Access at claude.ai to start conversations without setup."
 "How do I start a new conversation in Claude?","Click 'New chat' (usually top-left) or use keyboard shortcut Cmd/Ctrl+K. Each conversation is siloed — previous chats don't influence new ones."
 "What models are available in Claude webapp?","Claude webapp includes Claude Haiku 4.5 (fast), Claude Sonnet 4.5 (balanced), and premium tiers offer Opus 4.5. Model selector is usually dropdown near the compose box."
@@ -54,4 +53,4 @@ prompt,answer
 "How do I use Claude for language learning?","Upload vocab lists or texts in target language. Request: 'Explain grammar here', 'Create flashcards', 'Translate and teach pronunciation.' Claude acts as a tutor with examples."
 "Can I integrate Claude with Zapier or Make?","Yes, via Claude API (not direct webapp integration). Build Zapier/Make workflows that call Claude for: email tagging, content generation, data processing across tools."
 "What is the best way to prompt Claude for technical help?","Be specific: include error messages, code context, system info, what you've tried. Example: 'I'm getting CORS error in React when calling AWS API. Code: [paste]. How do I fix it?'"
-"Author and License Information","Deck created by Sevetech (PaperStackPro). For Claude Webapp Tutorial. Use freely for personal/educational purposes. Share with credit. Not affiliated with Anthropic. Last updated 2026. License: CC BY 4.0"
+"Author and License Information","Deck created by Sevetech (PaperStackPro). Use freely for personal/educational purposes. Share with credit. Not affiliated with Anthropic. Last updated 2026. License: CC BY 4.0"
