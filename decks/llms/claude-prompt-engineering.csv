@@ -1,0 +1,41 @@
+What is prompt engineering?,The practice of crafting inputs to a language model to reliably get the output quality and format you want.
+What is the single most effective prompt engineering technique according to Anthropic's guidance?,Being clear and direct — explicit, unambiguous instructions outperform vague or implicit ones.
+Why should you be explicit rather than implicit in a prompt?,Claude cannot read your mind — it only has the context you give it, so unstated assumptions often get missed.
+What is a good way to check if your instructions are clear?,Show the prompt to a colleague unfamiliar with the task and see if they can follow it.
+What is "multishot prompting"?,Providing several examples of input-output pairs in the prompt so Claude can infer the desired pattern.
+Why do examples (multishot prompting) improve output quality?,They reduce ambiguity about format and style and let Claude generalize from concrete demonstrations rather than abstract instructions alone.
+What makes a good example in multishot prompting?,"Relevant, diverse, and clear examples that cover edge cases you care about."
+What is chain-of-thought (CoT) prompting?,Explicitly instructing Claude to reason step by step before giving a final answer.
+When is chain-of-thought prompting most useful?,For complex tasks involving math, logic, multi-step reasoning, or analysis where jumping straight to an answer risks errors.
+What is a simple way to trigger chain-of-thought reasoning?,"Ask Claude to \"think step by step\" or to work through its reasoning before answering."
+Why use XML tags in prompts to Claude?,"Claude is trained to pay special attention to XML tags, making them effective for clearly separating instructions, context, examples, and output sections."
+Give an example of a common XML tag pattern in prompts.,"E.g. <example>Q: 2+2? A: 4</example> to show the input/output pattern, or <document>...</document> to mark reference text Claude should analyze."
+What is a system prompt?,"A separate instruction channel (outside the user turn) used to set Claude's role, tone, or persistent behavior for the conversation."
+What is one benefit of using a system prompt over putting instructions in the user message?,It cleanly separates role/context-setting from the actual task or question the user is asking.
+What is "role prompting"?,Assigning Claude a persona or expertise (e.g. "You are a senior security auditor") to shape tone and focus of its responses.
+What is prompt "prefilling"?,Starting Claude's response for it (e.g. with the opening characters of the expected format) to constrain or guide its output.
+What's a practical use of prefilling?,"Forcing output to start with \"{\" to bias Claude toward producing valid JSON."
+What does "context window" mean in the context of prompting?,The maximum amount of text (input plus output) a model can process in a single request.
+Why does placing long documents before your final instructions often help?,It lets Claude process all the reference material first, then apply your specific instructions with that context in mind.
+What is the benefit of giving Claude a clear task/goal statement up front?,It orients the model on what "success" looks like before it processes the rest of the prompt.
+What is "output formatting control" in prompting?,Explicitly specifying the structure, length, or format you want (e.g. bullet list, table, JSON schema, word count).
+Why might you ask Claude to avoid preamble in its answer?,To get straight to the requested content without introductory filler like "Sure, here is...".
+What is a common technique for reducing hallucination in factual tasks?,"Instructing Claude to say \"I don't know\" or cite uncertainty when it lacks sufficient information, rather than guessing."
+What is "grounding" a prompt?,Supplying relevant source documents or data directly in the prompt so Claude's answer is based on given context rather than memory.
+Why break a complex task into smaller subtasks across multiple prompts?,"Smaller, well-scoped steps reduce error accumulation and make it easier to verify intermediate results."
+What is "prompt chaining"?,Using the output of one prompt as the input to a subsequent prompt to accomplish a multi-step workflow.
+What is a common technique to get consistent structured output from Claude?,Providing an explicit schema or example of the exact output format you expect (e.g. a JSON template).
+Why is specifying the audience or reading level useful in a prompt?,It helps Claude calibrate vocabulary, depth, and tone to match the intended reader.
+What is "negative prompting" in the context of Claude?,Explicitly stating what NOT to do or include, in addition to positive instructions.
+Why should negative instructions generally be paired with positive alternatives?,Telling Claude only what to avoid can leave it unclear what to do instead; pairing with a positive instruction is more reliable.
+What is the benefit of asking Claude to give its confidence level or caveats?,It surfaces uncertainty explicitly rather than presenting a guess with false confidence.
+What is a "few-shot" prompt versus a "zero-shot" prompt?,A few-shot prompt includes example input-output pairs; a zero-shot prompt gives only instructions with no examples.
+Why might longer, more detailed prompts sometimes outperform short ones?,Extra relevant context and constraints reduce ambiguity, though irrelevant length can dilute focus — relevance matters more than raw length.
+What is prompt "iteration"?,The practice of testing a prompt, evaluating the output, and refining the wording based on results.
+Why is testing prompts across multiple examples important?,A prompt that works for one input may fail on edge cases; testing on a varied set catches inconsistent behavior.
+What does it mean to give Claude "context" in a prompt?,Background information — data, prior conversation, goals, or constraints — that helps Claude produce a more relevant and accurate response.
+What is a common pitfall when writing long, unstructured prompts?,Important instructions can get lost or deprioritized without clear structure like headers, XML tags, or numbered steps.
+Why might you explicitly define output length constraints (e.g. "in 3 sentences")?,It prevents overly long or overly terse responses that don't match the intended use case.
+What is the purpose of an "evaluation" (eval) set when engineering prompts?,"A fixed set of representative test inputs (and ideally expected outputs) used to measure whether prompt changes actually improve performance, not just anecdotally."
+What is one reason to iterate on prompts with real or representative data rather than made-up examples?,Real data surfaces edge cases and ambiguities that synthetic examples may not capture.
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"
