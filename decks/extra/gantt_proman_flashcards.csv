@@ -1,0 +1,34 @@
+What does WBS stand for on this sheet?,Work Breakdown Structure — a code marking each task's place in the project hierarchy.
+Why assign a WBS code before writing the task itself?,"It fixes the task's position in the hierarchy, so subtasks stay attached to the right parent even after re-ordering."
+How should WBS codes be numbered for sub-tasks?,"Decimal notation such as 1.1, 1.2, 1.2.a — each added level shows one step deeper in the breakdown."
+What belongs in the Resource column?,"The person, role, or team responsible for the task — not necessarily whoever logged it."
+How is a task with two resources recorded on one row?,"Both names can be written in the Resource cell, or the task can be split into two rows sharing one WBS code with a letter suffix."
+How should the Start field be filled in?,"With the planned calendar date the task is meant to begin, written before work starts."
+What does Duration record?,"The planned length of the task in working days, not calendar days."
+Why measure Duration in working days rather than calendar days?,"Weekends are already shaded as rest days on the grid, so counting them again in Duration would double them up."
+What is the ETA column used for?,"The expected completion date, checked against actual progress at each review."
+What is the difference between ETA and the day actually shaded as finished?,ETA is the forecast written in ink at the start; the last shaded day is the outcome — comparing the two shows how the estimate held up.
+How many weeks does one printed sheet cover?,"Four week-blocks, each with its own Monday-to-Sunday day grid."
+What is the Week No. field in the header for?,"The ISO week the first block starts on, so completed sheets can be filed and found by week number."
+What goes in the Date range field?,"The calendar span the four week-blocks cover, written once the sheet's start week is fixed."
+How is daily progress marked on the grid?,Shade the cell for each day actually worked; Saturdays and Sundays are pre-shaded as default rest days.
+What should be done if a task runs past its planned duration?,Extend the shading into the following days rather than erasing the plan — the drift is itself useful information.
+How can a milestone be distinguished from an ordinary task on the sheet?,"Give it a Duration of zero or one day and mark its single day cell with a distinct symbol, such as a diamond, instead of a plain shade."
+How can task dependencies be shown on a paper sheet with no arrows?,"By ordering dependent tasks on consecutive rows under the same parent WBS code, so the sequence reads top to bottom."
+How is a delay in one task carried over to a dependent task by hand?,The dependent task's Start and ETA are crossed out and rewritten once the earlier task's actual finish day is known.
+What symbol convention keeps status readable at a glance?,"A consistent mark per state — for example a filled square for done, a diagonal line for in progress, and an empty cell for not started."
+Why use a pencil for the day grid and pen for the six label columns?,"Plans logged at the start (WBS, Task, Resource, Start, Duration, ETA) are meant to stay fixed, while day-by-day shading needs to be revisable as work actually happens."
+How can colour be used without changing the sheet's design?,"A highlighter can shade completed days, leaving the printed light-gray weekend fill as the only built-in colour cue."
+What is the weekly review step in this workflow?,"At the start of each week, shade the days completed and update any ETA that has slipped."
+"What should happen at the end of the four-week period, before starting a new sheet?","Every row is checked off as done, carried forward, or dropped, so nothing is lost between sheets."
+How can this sheet be linked to an index-card or notebook system?,"Write the task's WBS code on any card or page that documents that task, so both records can be cross-referenced."
+How does this sheet fit alongside a kanban-style task board?,"The Gantt sheet holds the time-based plan, while the kanban board tracks which phase each task is currently in — the WBS code is the link between the two."
+What should be filled in before any tasks are logged?,"The Project, Company, Project Manager, Week No., Date range, and Prepared by fields in the header."
+Why keep task details in fixed columns instead of inside the day grid?,"So who, when, and how long stay legible at a glance, separate from the day-by-day progress marks."
+What is the footer legend for?,"It reminds anyone reading a filled-in sheet what each column abbreviation means, without the original instructions."
+What should be done once a project runs past four weeks?,Start a new sheet for the next four weeks and carry forward any open tasks under their original WBS codes.
+How should a large project be split across several sheets?,By top-level WBS branch — each sheet covers one branch of the hierarchy rather than mixing unrelated branches on one page.
+Why choose the paper size (A4 or US Letter) before printing?,To match the paper stock already in use and keep sheets a consistent size for filing.
+How should completed sheets be archived for later reference?,"Filed in Week No. order, so a project's full run of sheets reads in sequence when pulled later."
+How can a finished sheet be turned into a digital record?,"By photographing or scanning it and filing the image alongside its Week No., or by re-typing the row data into a spreadsheet for longer-term tracking."
+Author,SeveTech — released for personal and commercial use; keep this credit line when the sheet or this deck is redistributed.
