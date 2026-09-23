@@ -1,0 +1,51 @@
+What is a Gantt chart?,"A horizontal bar chart that plots tasks against a timeline, showing start, duration, and finish for each."
+What is a Kanban board?,"A visual board with columns for workflow stages (e.g. To Do, Doing, Done) where tasks move as cards from left to right."
+What is a WBS?,"Work Breakdown Structure — a hierarchical decomposition of a project's total scope into smaller, manageable work packages."
+What is the critical path?,The longest sequence of dependent tasks in a project; it sets the shortest possible project duration.
+What is float (or slack)?,The amount of time a task can be delayed without pushing back the project's finish date.
+What is a milestone?,"A zero-duration marker for a significant point or event in a project, such as a phase completion."
+What is a dependency in scheduling?,A logical relationship that determines the order in which two tasks must occur.
+What are the four types of task dependency?,"Finish-to-Start, Start-to-Start, Finish-to-Finish, and Start-to-Finish."
+What is a PERT chart?,"A network diagram showing tasks and dependencies, often used with three time estimates (optimistic, pessimistic, most likely) to model uncertainty."
+What is the difference between a Gantt chart and a network diagram?,"A Gantt chart plots tasks against time; a network diagram plots tasks by logical sequence and dependency, without a time axis."
+What is a baseline in project management?,"The originally approved version of the schedule, budget, or scope, used as a fixed reference to measure actual performance against."
+What is scope creep?,"Uncontrolled expansion of a project's scope without corresponding adjustments to time, cost, or resources."
+What is a RACI matrix?,"A responsibility-assignment chart marking each task as Responsible, Accountable, Consulted, or Informed for every stakeholder."
+What is resource leveling?,"Adjusting a schedule to resolve over-allocation, so no resource is assigned more work than its available capacity."
+What is fast tracking?,Compressing a schedule by running tasks in parallel that were originally planned in sequence.
+What is crashing?,"Compressing a schedule by adding resources to critical-path tasks, usually at extra cost."
+What is a risk register?,"A log of identified project risks, their likelihood, impact, and the response planned for each."
+What is a RAID log?,"A tracking log for Risks, Assumptions, Issues, and Dependencies, kept alongside the schedule."
+What is a stakeholder register?,"A document listing everyone with an interest in the project, along with their influence and communication needs."
+What is a project charter?,"A short document that formally authorizes a project and names its objectives, scope, and project manager."
+What is a work package?,"The lowest level of a WBS — a task small enough to be assigned, scheduled, and tracked directly."
+What is Earned Value Management (EVM)?,"A method for measuring project performance by comparing planned work, actual work done, and actual cost."
+"What do PV, EV, and AC stand for in EVM?","Planned Value, Earned Value, and Actual Cost."
+What does CPI measure?,Cost Performance Index — earned value divided by actual cost; below 1 means the project is over budget.
+What does SPI measure?,Schedule Performance Index — earned value divided by planned value; below 1 means the project is behind schedule.
+What is a burndown chart?,"A chart showing remaining work versus time in a sprint or project, used in Agile to track progress toward completion."
+What is a burnup chart?,"A chart showing completed work and total scope over time, useful for visualizing scope changes alongside progress."
+What is a sprint in Scrum?,"A fixed, short time-box, typically one to four weeks, in which a defined set of work is completed."
+What is a product backlog?,"An ordered list of everything that might be needed in the product, maintained and prioritized by the product owner."
+What is a sprint backlog?,"The subset of backlog items selected for the current sprint, along with the plan for delivering them."
+What is velocity in Agile?,"The amount of work a team completes per sprint, usually measured in story points, used to forecast future capacity."
+What is a daily standup?,"A short daily meeting where each team member states what was done, what is planned next, and any blockers."
+What is the difference between Waterfall and Agile?,Waterfall plans and executes phases sequentially with fixed scope; Agile delivers work in short iterative cycles with scope that can adapt.
+What is PRINCE2?,"A structured project management method built around defined stages, defined roles, and a business-case-driven approach, widely used in the UK and government projects."
+What is the PMBOK Guide?,"A Project Management Institute publication describing standard project management processes, knowledge areas, and terminology."
+What is a Definition of Done?,An agreed checklist of conditions a piece of work must meet before it can be counted as complete.
+What is a minimum viable product (MVP)?,The smallest version of a product that can be released to validate an idea with real users.
+What is a change control process?,"A formal procedure for proposing, reviewing, approving, and recording changes to a project's scope, schedule, or budget."
+What is a status report used for?,"Communicating progress, risks, and upcoming work to stakeholders at a regular cadence."
+What is a kickoff meeting?,"The first project meeting, used to align the team and stakeholders on objectives, scope, roles, and schedule."
+What is resource allocation?,"The process of assigning available people, equipment, and budget to specific project tasks."
+What is the difference between a program and a project?,A project is a temporary effort with a defined outcome; a program is a group of related projects managed together for shared benefits.
+What is a portfolio in project management?,"A collection of projects and programs grouped together to meet strategic business objectives, not necessarily related to each other directly."
+What is a Gantt chart's main limitation for large projects?,It can become cluttered and hard to read once the number of tasks and dependencies grows large.
+Why do many teams use Kanban instead of Gantt charts for ongoing work?,"Kanban suits continuous, unscheduled flow of work better than a fixed timeline, which fits projects with a defined start and end."
+What is a swimlane on a Kanban board?,"A horizontal row used to separate tasks by category, team, or priority, layered on top of the usual workflow columns."
+What is a WIP limit in Kanban?,"A cap on the number of tasks allowed in a given workflow stage at once, used to prevent overload and expose bottlenecks."
+What is the difference between a task and a deliverable?,A task is an activity performed; a deliverable is the tangible or intangible output produced by one or more tasks.
+What is a project retrospective?,"A meeting held after a project or sprint to review what went well, what did not, and what should change next time."
+What is the difference between a project manager and a product owner?,"A project manager is responsible for delivering the project's schedule, budget, and scope; a product owner is responsible for prioritizing what gets built, most common in Agile/Scrum settings."
+Author,SeveTech — released for personal and commercial use; keep this credit line when this deck is redistributed.
