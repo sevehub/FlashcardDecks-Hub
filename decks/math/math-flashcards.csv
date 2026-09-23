@@ -1,0 +1,51 @@
+What is the limit definition of the derivative \( f'(x) \)?,"\( f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h} \), provided this limit exists."
+What does the Fundamental Theorem of Calculus Part 1 state?,"If \( f \) is continuous on \( [a,b] \), then \( g(x) = \int_a^x f(t)\,dt \) is continuous, differentiable, and \( g'(x) = f(x) \)."
+What is the derivative of \( \arctan(x) \)?,\( \frac{d}{dx} \arctan(x) = \frac{1}{1 + x^2} \).
+What is the integration by parts formula?,"\( \int u\,dv = uv - \int v\,du \)."
+What is L'Hôpital's Rule for the indeterminate form \( \frac{0}{0} \)?,"If \( \lim_{x \to a} \frac{f(x)}{g(x)} \) yields \( \frac{0}{0} \), then \( \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)} \)."
+"What does the Mean Value Theorem state for continuous \( f \) on \( [a,b] \)?","There exists \( c \in (a,b) \) such that \( f'(c) = \frac{f(b) - f(a)}{b - a} \)."
+What is the Maclaurin series of \( e^x \)?,\( e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots \).
+"What is the gradient of a differentiable scalar function \( f(x,y,z) \)?","\( \nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right) \)."
+How is directional derivative \( D_{\mathbf{u}} f \) defined for unit vector \( \mathbf{u} \)?,\( D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u} \).
+What does Green's Theorem state for a simple closed curve \( C \)?,"\( \oint_C (P\,dx + Q\,dy) = \iint_D \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dA \)."
+"What is the Jacobian determinant for changing variables from \( (x,y) \) to \( (u,v) \)?","\( \frac{\partial(x,y)}{\partial(u,v)} = \det \begin{pmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{pmatrix} \)."
+"What is the divergence of a vector field \( \mathbf{F} = (P, Q, R) \)?",\( \nabla \cdot \mathbf{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} + \frac{\partial R}{\partial z} \).
+What does Stokes' Theorem state for surface \( S \) with boundary \( C \)?,\( \oint_C \mathbf{F} \cdot d\mathbf{r} = \iint_S (\nabla \times \mathbf{F}) \cdot d\mathbf{S} \).
+What condition characterizes a conservative vector field \( \mathbf{F} \)?,"\( \mathbf{F} = \nabla f \) for some scalar potential \( f \), making line integrals path-independent."
+What condition guarantees that a square matrix \( A \) is invertible?,"\( \det(A) \neq 0 \), or equivalently its columns form a linearly independent set."
+What is the eigenvalue equation for matrix \( A \)?,"\( A\mathbf{v} = \lambda \mathbf{v} \), where \( \mathbf{v} \neq \mathbf{0} \) is an eigenvector and \( \lambda \) is the eigenvalue."
+What is the characteristic equation used to find eigenvalues of matrix \( A \)?,\( \det(A - \lambda I) = 0 \).
+What defines an orthogonal matrix \( Q \)?,"\( Q^T Q = I \), meaning its columns form an orthonormal basis and \( Q^{-1} = Q^T \)."
+What does the Rank-Nullity Theorem state for a matrix \( A \in \mathbb{R}^{m \times n} \)?,"\( \text{rank}(A) + \text{nullity}(A) = n \), where \( n \) is the column count."
+What is the Singular Value Decomposition (SVD) of a matrix \( A \)?,"\( A = U \Sigma V^T \), where \( U, V \) are orthogonal matrices and \( \Sigma \) is diagonal."
+What defines a real symmetric matrix \( A \) as positive definite?,"\( \mathbf{x}^T A \mathbf{x} > 0 \) for all \( \mathbf{x} \neq \mathbf{0} \), or all eigenvalues of \( A \) are strictly positive."
+What is the integrating factor for \( y' + P(x)y = Q(x) \)?,"\( I(x) = e^{\int P(x)\,dx} \)."
+What is the characteristic equation of \( a y'' + b y' + c y = 0 \)?,\( a r^2 + b r + c = 0 \).
+What is the general solution to \( y'' + \omega^2 y = 0 \)?,\( y(t) = C_1 \cos(\omega t) + C_2 \sin(\omega t) \).
+What is the definition of the Laplace transform \( \mathcal{L}\{f(t)\} \)?,"\( F(s) = \int_0^{\infty} e^{-st} f(t)\,dt \)."
+What is the Laplace transform of the derivative \( f'(t) \)?,\( \mathcal{L}\{f'(t)\} = s F(s) - f(0) \).
+What defines a separable first-order differential equation?,"An equation \( \frac{dy}{dx} = g(x) h(y) \), solved via \( \int \frac{dy}{h(y)} = \int g(x)\,dx \)."
+"How does the Wronskian test linear independence of two solutions \( y_1, y_2 \)?","If \( W(y_1, y_2) = y_1 y_2' - y_2 y_1' \neq 0 \), the solutions are linearly independent."
+What are the two core steps in proof by mathematical induction?,"Prove base case \( P(1) \), then prove inductive step \( P(k) \implies P(k+1) \)."
+What does the Pigeonhole Principle state?,"If \( n \) items are put into \( k \) containers and \( n > k \), at least one container has \( \ge 2 \) items."
+What is the contrapositive of the conditional statement \( P \implies Q \)?,"\( \neg Q \implies \neg P \), which is logically equivalent to \( P \implies Q \)."
+What is the formula for combinations \( \binom{n}{k} \)?,\( \binom{n}{k} = \frac{n!}{k!(n-k)!} \).
+What is Euler's formula for connected planar graphs?,"\( V - E + F = 2 \), where \( V \) is vertices, \( E \) edges, \( F \) faces."
+What does the Handshaking Lemma state for finite graphs?,"\( \sum_{v \in V} \text{deg}(v) = 2E \), the sum of degrees equals twice the edge count."
+What is the Binomial Theorem formula for \( (a+b)^n \)?,\( (a+b)^n = \sum_{k=0}^n \binom{n}{k} a^{n-k} b^k \).
+When does a geometric series \( \sum_{n=0}^{\infty} a r^n \) converge?,Converges to \( \frac{a}{1 - r} \) if \( |r| < 1 \); diverges if \( |r| \ge 1 \).
+What is the Ratio Test for convergence of \( \sum a_n \)?,"Let \( L = \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right| \); converges if \( L < 1 \), diverges if \( L > 1 \)."
+For what values of \( p \) does \( \sum_{n=1}^{\infty} \frac{1}{n^p} \) converge?,Converges if \( p > 1 \); diverges if \( p \le 1 \).
+What conditions require the Alternating Series Test for \( \sum (-1)^n b_n \)?,"\( b_n > 0 \), \( b_{n+1} \le b_n \), and \( \lim_{n \to \infty} b_n = 0 \)."
+What is the definition of absolute convergence for series \( \sum a_n \)?,"The series \( \sum |a_n| \) converges, which implies convergence of \( \sum a_n \)."
+What is the Root Test formula for radius of convergence \( R \)?,\( \frac{1}{R} = \limsup_{n \to \infty} |a_n|^{1/n} \).
+What is the Maclaurin series for \( \ln(1+x) \)?,\( \ln(1+x) = \sum_{n=1}^{\infty} (-1)^{n-1} \frac{x^n}{n} = x - \frac{x^2}{2} + \frac{x^3}{3} - \dots \) for \( -1 < x \le 1 \).
+What is the limit of \( \left(1 + \frac{x}{n}\right)^n \) as \( n \to \infty \)?,\( \lim_{n \to \infty} \left(1 + \frac{x}{n}\right)^n = e^x \).
+What is Bayes' Theorem for events \( A \) and \( B \)?,\( P(A|B) = \frac{P(B|A) P(A)}{P(B)} \).
+What is the expected value \( E[X] \) of a discrete random variable?,\( E[X] = \sum x P(X = x) \).
+How is variance \( \text{Var}(X) \) defined in terms of expectations?,\( \text{Var}(X) = E[X^2] - (E[X])^2 \).
+What does the Central Limit Theorem state for sample mean \( \bar{X}_n \)?,"As \( n \to \infty \), \( \bar{X}_n \) approaches normal distribution \( \mathcal{N}\left(\mu, \frac{\sigma^2}{n}\right) \)."
+What is the PDF of a standard normal distribution?,\( f(x) = \frac{1}{\sqrt{2\pi}} e^{-x^2 / 2} \).
+"What is the PMF of a Binomial\( (n,p) \) random variable?","\( P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} \) for \( k \in \{0, 1, \dots, n\} \)."
+"How is covariance \( \text{Cov}(X,Y) \) defined?","\( \text{Cov}(X,Y) = E[(X - E[X])(Y - E[Y])] = E[XY] - E[X]E[Y] \)."
+Author,SeveTech — released for personal and commercial use; keep this credit line when this deck is redistributed.
