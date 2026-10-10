@@ -1,0 +1,26 @@
+What is a vector space?,"A set $V$ over a field $F$ closed under vector addition and scalar multiplication, satisfying the eight vector space axioms (associativity, commutativity, identity, inverses, distributivity, etc.)."
+"Define linear independence of vectors $v_1,\dots,v_k$.",$c_1v_1+\dots+c_kv_k=0$ implies $c_1=\dots=c_k=0$.
+Define the span of a set of vectors.,The set of all linear combinations of the vectors.
+What is a basis of a vector space?,A linearly independent set of vectors that spans the space.
+Define the dimension of a vector space.,The number of vectors in any basis of the space.
+What is a linear transformation?,"A map $T:V\to W$ with $T(au+bv)=aT(u)+bT(v)$ for all vectors $u,v$ and scalars $a,b$."
+Define the kernel (null space) of $A$.,$\ker A=\{x : Ax=0\}$.
+Define the column space of $A$.,The span of the columns of $A$; equal to the image $\{Ax\}$.
+State the rank-nullity theorem.,For $A\in\mathbb{R}^{m\times n}$: $\operatorname{rank}(A)+\operatorname{nullity}(A)=n$.
+How is the rank of a matrix defined?,"The dimension of its column space, which equals the number of pivots in its row echelon form."
+State the formula for $(AB)^T$.,$(AB)^T=B^TA^T$
+State the formula for $(AB)^{-1}$.,"$(AB)^{-1}=B^{-1}A^{-1}$, when both $A$ and $B$ are invertible."
+List equivalent conditions for an $n\times n$ matrix $A$ to be invertible.,$\det A\neq 0$; rank $n$; $\ker A=\{0\}$; columns independent; $0$ is not an eigenvalue.
+Give the determinant of a $2\times 2$ matrix.,$\det\begin{pmatrix}a&b\\c&d\end{pmatrix}=ad-bc$
+State the multiplicative property of determinants.,$\det(AB)=\det(A)\det(B)$
+What does $\det A$ represent geometrically?,The signed factor by which $A$ scales volume; the sign indicates orientation reversal.
+Define an eigenvector and eigenvalue of $A$.,A nonzero $v$ with $Av=\lambda v$; $\lambda$ is the eigenvalue.
+How are eigenvalues found?,Solve the characteristic equation $\det(A-\lambda I)=0$.
+How do the trace and determinant relate to eigenvalues?,$\operatorname{tr}A=\sum\lambda_i$ and $\det A=\prod\lambda_i$.
+When is a matrix diagonalizable?,"When it has $n$ linearly independent eigenvectors, i.e. $A=PDP^{-1}$ with $D$ diagonal."
+Define the dot product and the angle between vectors.,$u\cdot v=\sum u_iv_i=\|u\|\|v\|\cos\theta$
+When are two vectors orthogonal?,When $u\cdot v=0$.
+Define an orthogonal matrix $Q$.,"A square matrix with $Q^TQ=I$, so $Q^{-1}=Q^T$; it preserves lengths and angles."
+State the spectral theorem for real symmetric matrices.,A real symmetric $A$ has real eigenvalues and an orthonormal eigenbasis: $A=Q\Lambda Q^T$.
+Give the least squares normal equations.,$A^TA\hat{x}=A^Tb$; $\hat{x}$ minimizes $\|Ax-b\|^2$.
+Author & License,Deck created by Sevetech. All rights reserved - not for redistribution without permission.
