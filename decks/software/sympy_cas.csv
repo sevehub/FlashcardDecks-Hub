@@ -1,0 +1,30 @@
+What type of initial guess must be provided to `nsolve()` to locate complex roots of a real function?,A non-real (imaginary or complex) initial starting point.
+How does the `collect()` function structure a polynomial expression with respect to a designated variable $x$?,It groups additive terms that share common powers of the specified symbol $x$.
+"How do you specify a definite integral $\int_{a}^{b} f(x) \, dx$ in SymPy's `integrate()` function?","Pass a tuple `(x, a, b)` specifying the integration variable and both integration limits as the second argument."
+Which SymPy function transforms a factored expression like $(x + y)^2$ into its expanded form $x^2 + 2xy + y^2$?,The `expand()` function.
+What function is used to compute symbolic derivatives in SymPy?,The `diff()` function.
+Which function solves Diophantine equations for integer solutions in SymPy?,The `diophantine()` function.
+What function converts a string representation of a mathematical expression into a SymPy symbolic object?,The `sympify()` function.
+Which SymPy function is specifically designed to solve symbolic ordinary differential equations?,The `dsolve()` function.
+How can you test whether two symbolic expressions $A$ and $B$ are numerically equivalent when symbolic subtraction does not yield zero?,"Call `A.equals(B)`, which tests equality by evaluating both expressions numerically at random points."
+What is the purpose of the `evalf()` method when called on a symbolic expression?,It computes a floating-point numerical approximation of the symbolic expression.
+"When a single expression `expr` is passed to `solve(expr, x)` without `Eq`, what equation is implicitly solved?","SymPy implicitly assumes the equation is set to zero, solving $\text{expr} = 0$."
+Which SymPy function performs partial fraction decomposition on a rational expression?,The `apart()` function.
+Which method on a SymPy polynomial object returns all of its coefficients in descending order of degree?,The `.all_coeffs()` method.
+What function in SymPy computes the limit of an expression $f(x)$ as $x$ approaches a target value?,The `limit()` function.
+What does the `CRootOf()` object represent when returned in an equation's solution set?,It represents an indexed complex root of a polynomial that lacks a simple closed-form algebraic representation.
+How does `solveset()` differ from `solve()` regarding the return type of its solutions?,The `solveset()` function returns solutions packaged inside a mathematical set object rather than a standard list.
+What output format is generated when calling `solve()` with the argument `dict=True`?,It returns a list of dictionaries mapping solved symbols to their corresponding solution values.
+Which SymPy function converts an expanded polynomial into a product of simpler factors?,The `factor()` function.
+What method replaces a symbol in a SymPy expression with a numerical value or another expression?,The `.subs()` method.
+What function converts a symbolic SymPy expression into a numerical function suitable for evaluation with libraries like SciPy?,The `lambdify()` function.
+How does SymPy represent $\sqrt{8}$ symbolically to maintain exact precision?,SymPy simplifies $\sqrt{8}$ to $2\sqrt{2}$ rather than converting it to a floating-point decimal approximation.
+How do you explicitly define an algebraic equality equation $A(x) = B(x)$ in SymPy?,"Use the `Eq(A(x), B(x))` construct."
+Which function combines a sum of rational expressions like $\frac{a}{b} + \frac{c}{d}$ into a single fraction?,The `together()` function.
+How is symbolic infinity represented in SymPy calculations?,It is represented by the object `oo` (two lowercase 'o' letters).
+What is the primary purpose of the `simplify()` function in SymPy?,It evaluates a mathematical expression and rewrites it into a simpler equivalent symbolic form.
+How does SymPy internally represent a compound symbolic expression like $x^2 + xy$?,"It constructs an expression tree composed of class nodes such as `Add`, `Mul`, `Pow`, and `Symbol`."
+Which method on a SymPy polynomial object retrieves its highest degree?,The `.degree()` method.
+Which Python operator is used to perform exponentiation in SymPy symbolic expressions?,The double asterisk operator `**`.
+Which function should be used when an equation cannot be solved symbolically and requires a numerical root-finder?,The `nsolve()` function.
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"
