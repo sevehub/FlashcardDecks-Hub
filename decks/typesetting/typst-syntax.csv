@@ -1,0 +1,76 @@
+How do you insert a multi-line raw code block in Typst markup?,Enclose the code block in triple backticks (``` ... ```).
+What keyword introduces a code expression capable of querying document location and style context?,context
+What is the primary function of the state tool in Typst?,To manage and update dynamic values across document layout where standard variable bindings cannot.
+What unit suffix represents a length relative to the current font size in Typst?,"em (e.g., 2em)."
+What is the result of multiplying a content value by an integer $n$ in Typst?,The content value is repeated $n$ times.
+How does the title element differ from a level 1 heading (= Heading)?,"title occurs only once per document for the main title, whereas level 1 headings mark top-level sections."
+What markup syntax applies emphasis (rendered as italic text) in Typst?,Enclose the text in underscores (_emphasis_).
+How do you declare a variable binding in Typst?,#let variable-name = value
+What function initializes a state variable in Typst?,"#let s = state(""key-name"", initial-value)"
+What is the basic syntax structure of a set rule in Typst?,#set element-name(property: value)
+How are single letters vs. multi-letter text handled inside Typst math mode ($...$)?,"Single letters are treated as variables, while multi-character identifiers are mapped to symbols or math operators."
+How are absolute physical lengths written in Typst scripting?,"By appending unit Suffixes directly to numbers (e.g., 10pt, 160934cm, 1in)."
+Under what condition is text inside a container block (like block) wrapped into a paragraph?,Only if the container holds at least one block-level element.
+What is the syntax for invoking a function in Typst markup mode?,"#function-name(arg1, arg2)"
+What identifier naming convention is standard for multi-word variables in Typst?,"Kebab-case (e.g., #let blind-text = [...])."
+What markup syntax applies strong emphasis (rendered in boldface) in Typst?,Enclose the text in asterisks (*strong emphasis*).
+What effect does setting date: none on the document element have when exporting to PDF?,It prevents Typst from embedding any creation date into the PDF metadata.
+What does the Variadic annotation signify on a function parameter in Typst documentation?,The parameter can be specified multiple times in a single function call.
+What does the Settable annotation signify on an element function parameter in Typst?,Default values for that parameter can be customized using a set rule.
+How do you specify syntax highlighting for a specific programming language in a Typst code block?,"Append the language tag immediately after the opening triple backticks (e.g., ```typ or ```python)."
+How can a code expression embedded in markup be forcibly ended if an adjacent character would otherwise be parsed as part of the expression?,Terminate the expression with a semicolon (;).
+How do pure Typst functions differ fundamentally from LaTeX macros regarding side effects?,"Typst functions transform inputs into return content without side effects, whereas LaTeX macros can execute arbitrary side effects."
+How do you insert a symbol by name while in Markup mode rather than Math mode?,"Prefix the symbol name with #sym. (e.g., #sym.arrow)."
+Which state method retrieves the value of a state at a specific label location in the document?,".at(label) (e.g., #context s.at(<here>))"
+How do you enter Math mode from default Markup mode in Typst?,Surround the mathematical expression with dollar signs ($...$).
+What element function is used to create structured term list items programmatically?,"terms.item(term, description)"
+What is the primary purpose of a show rule in Typst?,"To completely redefine the appearance or behavior of specific elements, strings, or selectors."
+"In a Typst HTML bundle, are introspections (like query, counters, and labels) local per document or global?",Introspections are global across the full bundle.
+Why must calling state .get() always take place within a context expression?,Because the retrieved state value varies over the course of document layout.
+How do you create an ordered numbered list in Typst markup?,Start each item on a new line with a plus sign followed by a space (+ Item).
+How do you write a literal show rule that replaces all instances of a target string in Typst?,"#show ""target"": ""replacement"" (or #show ""target"": function)"
+"What specific language tags are built into raw blocks for formatting Typst markup, code, and math?","typ (for markup), typc (for code), and typm (for math)."
+What markup syntax creates a level-1 top-level heading in Typst?,An equals sign followed by a space (= Heading).
+What is the scope of set and show rules declared within a content block or custom function?,They apply only to elements contained within that specific content block.
+What are the two required positional arguments of terms.item in Typst?,term (content) and description (content).
+When does Typst automatically wrap root-level inline content into paragraphs?,All inline text directly at the root of a document is automatically wrapped in paragraphs.
+What function allows generating custom HTML elements with specific tags and attributes during HTML export?,"html.elem(tag, attrs: (...), body)"
+How do you select a specific modifier variant of a math symbol in Math mode?,"Append a dot and a modifier name to the symbol name (e.g., $a arrow.squiggly b$)."
+What happens to text inside a container block if all of its contents are inline-level?,No paragraph is created; the text remains pure inline-level content.
+Which state method retrieves the value of a state at the very end of the document?,.final()
+"Once inside Code mode, do nested function calls or keywords require a leading # character?","No, the leading # is only required when transitioning into Code mode from Markup or Math mode."
+What is the functional difference between state .get() and state .update(val) in Typst?,".get() retrieves the current value of the state, whereas .update(val) modifies the state value."
+How can trailing content arguments be syntactically passed to a function call in Typst markup?,"They can be placed immediately after the parameter list outside parentheses (e.g., #rect[Content])."
+"What function checks the active export target (e.g., PDF vs HTML) within Typst code?",target() (returns a str representing the target format).
+What is the required positional argument of the document element function in Typst?,body (of type content).
+What syntax creates a label attached to an element in Typst?,Enclose the label name in angle brackets (<label-name>).
+How do you insert inline verbatim or raw code in Typst markup?,Enclose the text in single backticks (`code`).
+What is the markup syntax for creating a term list (description list) item in Typst?,/ Term: Description
+How do you switch from default Markup mode to Code mode for a single expression in Typst?,Prefix the expression with a hash sign (#).
+How do you reference or cite a defined label in Typst markup?,Prefix the label identifier with an @ symbol (@label-name).
+"In the document element, what default value does the date parameter hold?",auto (which inserts the current date and time).
+"In Typst scripting, what character escapes quotes or control characters inside string literals?",The backslash (\).
+"In Typst function arguments, what data type is passed when enclosing markup in square brackets [...]?",content
+What data type does the attrs parameter accept in html.elem?,dictionary
+What method allows you to pre-configure arguments of a template function before passing it to a show rule?,"The .with() method (e.g., #show: conf.with(title: [...]))."
+What settable parameter controls horizontal line alignment inside raw text blocks?,align (default: start).
+How are unformatted string literals written in Typst code?,Enclosed in double quotes (\x22string text\x22).
+How are nested headings (such as level 2 or level 3) specified in Typst markup?,"By adding extra equals signs before the heading text (e.g., == Level 2 or === Level 3)."
+What does it mean for functions in Typst to be pure?,They cannot produce side effects beyond returning an output value or content.
+What element is used for the single main title of an entire document in Typst?,The title element.
+Why are layout-dependent properties (like heading numbers or localized text) restricted to context expressions?,Because Typst code is evaluated prior to final document layout and does not inherently know its final location.
+What operator is used to join or concatenate two content values in Typst?,The addition operator (+).
+How do you escape a literal # or ; character in Typst markup?,Precede the character with a backslash (\# or \;).
+How do you switch into Markup mode while inside Code mode?,Enclose the markup within square brackets ([...]).
+What is the primary purpose of a set rule in Typst?,To configure basic default styling properties of document elements.
+How do you define a custom single-parameter function in Typst?,#let func-name(param) = [ body content ]
+How are ratio values expressed in Typst code?,"By appending a percent sign (%) to a number (e.g., 80%)."
+How do you create an unordered bullet list in Typst markup?,Start each item on a new line with a hyphen followed by a space (- Item).
+"If state .update() is given a function instead of a raw value, how is the new state calculated?",The function receives the previous state value as an argument and returns the updated state value.
+"In an everything show rule used for document templates (#show: template), what is passed to the template function?",The entire document content following the show rule.
+What two non-content data types can be implicitly passed wherever content is expected in Typst?,String (str) and none.
+What are the three syntactical modes in Typst?,"Markup mode (default), Math mode ($...$), and Code mode (#...)."
+What standard Typst layout functions serve as native alternatives to LaTeX tabular packages?,#table(...) and #grid(...)
+"In Typst HTML export, what is a bundle target?",A target that generates a collection comprising multiple HTML documents and assets from a single project.
+How does Typst strip initial indentation from multi-line raw code blocks?,It finds the line with the fewest initial whitespace characters and trims that number of characters from every line.
+"Author: Sevetech https://sites.google.com/view/paperstackpro/home/flashcard-decks","CC BY-NC-SA 4.0"
