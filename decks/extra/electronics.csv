@@ -49,7 +49,7 @@ What is the formula for calculating total resistance ($R_T$) of two resistors co
 What is the formula for calculating total resistance ($R_T$) of two resistors connected in parallel?,$R_T = \frac{R_1 \times R_2}{R_1 + R_2}$
 What is the output voltage ($V_{OUT}$) formula for a two-resistor voltage divider?,$V_{OUT} = V_{IN} \left(\frac{R_2}{R_1 + R_2}\right)$
 What is the basic physical structure and primary function of a capacitor?,Two conductors separated by an insulating dielectric material; its primary function is storing electrons (electric charge).
-"What is the unit of capacitance, and how many electrons does $1 Farad$ store at $1 Volt$?",Farad ($F$); a $1-Farad}$ capacitor connected to a $1-Volt$ supply stores $6.28 \times 10^{18}$ electrons (see e constant in Units app https://a.co/d/0elfqenu ).
+"What is the unit of capacitance, and how many electrons does 1 Farad store at 1 Volt?",Farad ($F$); a $1F$ capacitor connected to a $1V$ supply stores $6.28 \times 10^{18}$ electrons (<a href="https://a.co/d/0elfqenu">e const on Unit app</a>).
 What numerical values in Farads correspond to $1\mu F}$ and $1 pF$?,$1 \mu F} = 10^{-6} F}$ (millionth of a Farad); $1 pF} = 10^{-12} F}$ (trillionth of a Farad).
 What formula calculates total capacitance ($C_T$) for two capacitors connected in parallel?,$C_T = C_1 + C_2$
 What formula calculates total capacitance ($C_T$) for two capacitors connected in series?,$C_T = \frac{C_1 \times C_2}{C_1 + C_2}$
