@@ -14,7 +14,7 @@ What is an electrical current?,A stream of moving electrons flowing from a regio
 What magnetic effect occurs when electrical current flows through a wire?,It creates a magnetic field encircling the wire.
 What physical principle allows a moving coil meter to measure electrical current?,Current flowing through a wire coil positioned between magnet poles creates a magnetic force that rotates a pivoted needle against a return spring.
 What defines direct current (DC) electricity?,An electrical current that flows through a conductor in only one direction.
-"What is an Ampere ($	A}$), and how many electrons per second does it represent?","The unit of current ($I$), defined as $6.28 \times 10^{18}$ electrons passing a given point in one second."
+"What is an Ampere ($A$), and how many electrons per second does it represent?","The unit of current ($I$), defined as $6.28 \times 10^{18}$ electrons passing a given point in one second."
 What is voltage ($V$ or $E$)?,"Electrical pressure or force, also known as potential difference."
 "What is electrical resistance ($R$), and what is its unit of measurement?","The opposition of a conductor to the flow of current, measured in Ohms ($\Omega$)."
 "According to Ohm's Law, what formula expresses Voltage ($V$) in terms of Current ($I$) and Resistance ($R$)?",$V = I \times R$
@@ -25,8 +25,8 @@ How does a solenoid operate?,Applying electrical power to a hollow coil creates 
 How does a chemical wet cell generate direct current electricity?,"Two dissimilar metal plates are immersed in an electrolyte; ions migrate to the plates, creating a potential difference that drives electrons through an external conductor."
 What is the Seebeck effect?,The generation of an electric current when a junction of two dissimilar metals is heated (thermoelectric generation).
 What defines alternating current (AC) electricity?,Electrical current that continuously alternates in direction or polarity.
-What is the mathematical relationship between Root-Mean-Square ($RMS$) voltage and Peak voltage for a sine wave?,"$V_{\tRMS}} = 0.707 \times V_{\tPeak}}$, or $V_{\tPeak}} = 1.41 \times V_{\tRMS}}$."
-"If a household AC outlet supplies $120	 V RMS}$, what is its peak voltage?",$169.2	 V Peak}$ ($120 \times 1.41 = 169.2$).
+What is the mathematical relationship between Root-Mean-Square ($RMS$) voltage and Peak voltage for a sine wave?,"$V_{RMS} = 0.707 \times V_{Peak}$, or $V_{Peak} = 1.41 \times V_{RMS}$."
+"If a household AC outlet supplies $120 V_{RMS}$, what is its peak voltage?",$169.2V_{Peak}$ ($120 \times 1.41 = 169.2$).
 Why is alternating current (AC) preferred over direct current (DC) for long-distance power transmission?,"AC easily induces current in nearby conductors via transformers, allowing efficient high-voltage, low-current power distribution."
 What is the definition of the 'load' in an electrical circuit?,"The part of a circuit that performs work (such as a lamp, motor, heating element, or electromagnet)."
 What defines a series circuit configuration?,A circuit where current flowing through one component must first flow through another component sequentially.
@@ -47,10 +47,10 @@ How does a carbon composition resistor achieve different resistance values durin
 "What resistor tolerance levels are indicated by Gold, Silver, and no fourth band?","Gold = $\pm 5\%$, Silver = $\pm 10\%$, No 4th band = $\pm 20\%$."
 What is the formula for calculating total resistance ($R_T$) of two resistors connected in series?,$R_T = R_1 + R_2$
 What is the formula for calculating total resistance ($R_T$) of two resistors connected in parallel?,$R_T = \frac{R_1 \times R_2}{R_1 + R_2}$
-What is the output voltage ($V_{\tOUT}}$) formula for a two-resistor voltage divider?,$V_{\tOUT}} = V_{\tIN}} \left(\frac{R_2}{R_1 + R_2}\right)$
+What is the output voltage ($V_{OUT}$) formula for a two-resistor voltage divider?,$V_{OUT} = V_{IN} \left(\frac{R_2}{R_1 + R_2}\right)$
 What is the basic physical structure and primary function of a capacitor?,Two conductors separated by an insulating dielectric material; its primary function is storing electrons (electric charge).
-"What is the unit of capacitance, and how many electrons does $1\t Farad}$ store at $1\t Volt}$?",Farad ($\tF}$); a $1\t-Farad}$ capacitor connected to a $1\t-Volt}$ supply stores $6.28 \times 10^{18}$ electrons.
-What numerical values in Farads correspond to $1\ \mu\tF}$ and $1\t pF}$?,$1\ \mu\tF} = 10^{-6}\t F}$ (millionth of a Farad); $1\t pF} = 10^{-12}\t F}$ (trillionth of a Farad).
+"What is the unit of capacitance, and how many electrons does $1 Farad$ store at $1 Volt$?",Farad ($F$); a $1-Farad}$ capacitor connected to a $1-Volt$ supply stores $6.28 \times 10^{18}$ electrons (see e constant in Units app https://a.co/d/0elfqenu ).
+What numerical values in Farads correspond to $1\mu F}$ and $1 pF$?,$1 \mu F} = 10^{-6} F}$ (millionth of a Farad); $1 pF} = 10^{-12} F}$ (trillionth of a Farad).
 What formula calculates total capacitance ($C_T$) for two capacitors connected in parallel?,$C_T = C_1 + C_2$
 What formula calculates total capacitance ($C_T$) for two capacitors connected in series?,$C_T = \frac{C_1 \times C_2}{C_1 + C_2}$
 How does a decoupling capacitor act as a power spike remover in digital IC circuits?,"Placed across power leads, it acts as a miniature reservoir battery that rapidly supplies current during brief voltage dips caused by high-speed switching."
@@ -58,7 +58,7 @@ What is the RC time constant ($\tau$)?,"The product of Resistance and Capacitanc
 How does an RC integrator circuit modify an incoming stream of square pulses?,"It reshapes pulses into a sawtooth wave by smoothing sharp transitions, functioning as a low-pass filter."
 How does an RC differentiator circuit modify an incoming square wave?,It produces symmetrical output waveforms with sharp positive and negative voltage spikes at wave transitions.
 How does an inductor coil affect alternating current (AC) versus direct current (DC)?,It resists rapid changes in current flow (opposing AC/high frequencies) while freely passing steady DC current.
-What semiconductor material is most commonly used in photoresistors to match the spectral sensitivity of the human eye?,Cadmium Sulfide ($\tCdS}$).
+What semiconductor material is most commonly used in photoresistors to match the spectral sensitivity of the human eye?,Cadmium Sulfide ($CdS}$).
 What is a Light-Activated Silicon Controlled Rectifier (LASCR)?,A light-sensitive semiconductor switch that triggers ON when exposed to a pulse of light and remains latched ON until power is interrupted.
 What is the maximum power supply voltage limit for standard TTL digital logic ICs?,$5.25\t Volts}$
 What design rule must be followed for unused input pins on TTL logic gates?,Inputs must never be left unconnected (floating); unused gate inputs should be forced to a high logic level to save power and ensure stability.
